@@ -34,4 +34,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: dist/simple-angular-app/server
+        publish_dir: dist/simple-angular-app  # Corrected to use the static build directory
